@@ -24,7 +24,7 @@ export default {
 	<div class="txt_color">
 
 
-		<router-link :to="{ name: 'show', params: { id: project.id } }" class="
+		<router-link :to="{ name: 'show', params: { id: project.id, slug: project.slug } }" class="
 			text-decoration-none txt_color">
 			<div class="txt_color text-center py-4 title_projects">
 				<span class="px-4"> {{ project.create_data }} </span>

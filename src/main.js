@@ -10,6 +10,7 @@ createApp(App).use(router).mount('#app')
 const cursor = document.getElementById('cursor')
 const shadow = document.getElementById('cursor-shadow')
 const links = document.querySelectorAll('a')
+
 const coords = {
 	x: 0,
 	y: 0

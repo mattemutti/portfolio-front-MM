@@ -24,18 +24,18 @@ export default {
 
 	<div class="bg_home">
 
-		<div class="efx_home"></div>
-		<div class="efx_home"></div>
-		<div class="efx_home"></div>
-		<div class="efx_home"></div>
-		<div class="efx_home"></div>
-		<div class="efx_home"></div>
-		<div class="efx_home"></div>
-		<div class="efx_home"></div>
-		<div class="efx_home"></div>
-		<div class="efx_home"></div>
-		<div class="efx_home"></div>
-		<div class="efx_home"></div>
+		<a href="#" class="efx_home"></a>
+		<a href="#" class="efx_home"></a>
+		<a href="#" class="efx_home"></a>
+		<a href="#" class="efx_home"></a>
+		<a href="#" class="efx_home"></a>
+		<a href="#" class="efx_home"></a>
+		<a href="#" class="efx_home"></a>
+		<a href="#" class="efx_home"></a>
+		<a href="#" class="efx_home"></a>
+		<a href="#" class="efx_home"></a>
+		<a href="#" class="efx_home"></a>
+		<a href="#" class="efx_home"></a>
 
 	</div>
 

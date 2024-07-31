@@ -43,7 +43,7 @@ const router = createRouter({
 			component: AppSocial,
 		},
 		{
-			path: '/show/:id',
+			path: '/show/:slug',
 			name: 'show',
 			component: SingleProject,
 		},

@@ -41,8 +41,8 @@ export default {
 
 	},
 	mounted() {
-		console.log(this.base_api_url, this.base_project_url, `/${this.$route.params.id}`);
-		let url = this.base_api_url + this.base_project_url + `/${this.$route.params.id}`;
+		console.log(this.base_api_url, this.base_project_url, `/${this.$route.params.slug}`);
+		let url = this.base_api_url + this.base_project_url + `/${this.$route.params.slug}`;
 		this.callApi(url);
 
 	}
