@@ -12,7 +12,7 @@ export default {
 
 	data() {
 		return {
-			base_api_url: 'https://35.178.230.33:80',
+			base_api_url: 'HTTPS://35.178.230.33:80',
 			base_project_url: '/api/projects',
 			projects: [],
 			loading: true,
