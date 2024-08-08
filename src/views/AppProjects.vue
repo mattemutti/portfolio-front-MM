@@ -12,7 +12,7 @@ export default {
 
 	data() {
 		return {
-			base_api_url: 'http://35.178.230.33:22',
+			base_api_url: 'mysql+ssh://forge@35.178.230.33/forge@127.0.0.1/matte_server?name=MuttiMatteoServer&usePrivateKey=true',
 			base_project_url: '/api/projects',
 			projects: [],
 			loading: true,
