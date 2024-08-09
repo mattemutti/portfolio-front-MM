@@ -2,6 +2,7 @@ import { createApp } from 'vue'
 import './assets/scss/style.scss'
 import App from './App.vue'
 import router from './router.js'
+//import api, { route } from "@forge/api";
 
 createApp(App).use(router).mount('#app')
 
