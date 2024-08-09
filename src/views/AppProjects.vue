@@ -12,8 +12,8 @@ export default {
 
 	data() {
 		return {
-			base_api_url: 'https://35.178.230.33',
-			base_project_url: '/api/projects',
+			base_api_url: 'https://35.178.230.33:22',
+			base_project_url: '/api/v1/servers/MuttiMatteoServer/Portfolio_MM/projects',
 			projects: [],
 			loading: true,
 			id: [],
