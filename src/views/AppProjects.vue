@@ -12,8 +12,8 @@ export default {
 
 	data() {
 		return {
-			base_api_url: 'https://muttimatteo.com',
-			base_project_url: '/api/projects',
+			base_api_url: 'https://muttimatteo.com/api/projects',
+			base_project_url: '',
 			projects: [],
 			loading: true,
 			id: [],
@@ -54,7 +54,7 @@ export default {
 	},
 	mounted() {
 		console.log(this.base_api_url, this.base_project_url);
-		let url = this.base_api_url + this.base_project_url;
+		let url = this.base_api_url;
 		this.callApi(url);
 	}
 }
