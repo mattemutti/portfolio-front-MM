@@ -28,10 +28,6 @@ export default {
 				},
 			})
 				.then(response => {
-					auth: {
-						username = uname
-						password = pass
-					}
 					console.log(response);
 					this.projects = response.data.projects;
 					this.loading = false;
