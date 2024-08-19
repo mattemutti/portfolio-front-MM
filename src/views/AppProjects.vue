@@ -13,7 +13,7 @@ export default {
 	data() {
 		return {
 			base_api_url: 'https://forge.laravel.com',
-			base_project_url: '/api/v1/servers/829590/databases/1182003',
+			base_project_url: '/api/v1/servers/829590/databases/1182003/',
 			projects: [],
 			loading: true,
 			id: [],
