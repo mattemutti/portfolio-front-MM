@@ -12,7 +12,7 @@ export default {
 
 	data() {
 		return {
-			base_api_url: 'https://muttimatteo.com/api/projects',
+			base_api_url: 'https://back.muttimatteo.com/api/projects',
 			base_project_url: '',
 			projects: [],
 			loading: true,
