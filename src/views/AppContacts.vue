@@ -6,7 +6,7 @@ export default {
 	name: 'AppContacts',
 	data() {
 		return {
-			base_api_url: 'https://back.muttimatteo.com',
+			base_api_url: 'https://back.muttimatteo.com/api/contacts',
 			name: '',
 			email: '',
 			message: '',
@@ -27,7 +27,7 @@ export default {
 
 			this.errors = {};
 
-			const apiUrl = `${this.base_api_url}/api/contacts`
+			const apiUrl = this.base_api_url;
 			console.log(this.apiUrl);
 
 			axios.post(apiUrl, data)
