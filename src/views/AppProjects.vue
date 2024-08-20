@@ -74,7 +74,7 @@ export default {
 			</div>
 		</div>
 
-		<!-- Paginate -->
+		<!-- Paginate 
 		<nav aria-label="Page navigation">
 			<ul class="pagination d-flex justify-content-between">
 				<li class="page-item text_dark" v-show="projects.prev_page_url"
@@ -95,7 +95,7 @@ export default {
 					</button>
 				</li>
 			</ul>
-		</nav>
+		</nav>-->
 
 	</div>
 </template>

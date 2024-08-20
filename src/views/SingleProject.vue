@@ -12,8 +12,8 @@ export default {
 
 	data() {
 		return {
-			base_api_url: 'http://127.0.0.1:8000',
-			base_project_url: '/api/projects',
+			base_api_url: 'https://back.muttimatteo.com/api/projects',
+			base_project_url: '',
 			project: '',
 			loading: true,
 		}
