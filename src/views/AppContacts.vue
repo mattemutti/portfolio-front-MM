@@ -28,7 +28,7 @@ export default {
 			this.errors = {};
 
 			const apiUrl = `${this.base_api_url}/api/contacts`
-			console.log($apiUrl);
+			console.log(this.apiUrl);
 
 			axios.post(apiUrl, data)
 				.then(resp => {
