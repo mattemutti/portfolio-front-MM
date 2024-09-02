@@ -55,7 +55,7 @@ export default {
 			<h2 class="">{{ project.title }}</h2>
 		</div>
 		<div class="text-center">
-			<img src="'https://back.muttimatteo.com/api/projects/storage/' + project.cover_image" alt="" class="py-4">
+			<img :src="'https://back.muttimatteo.com/api/projects/storage/' + project.cover_image" alt="" class="py-4">
 		</div>
 		<div class="text-end p-4">
 			{{ project.description }}
