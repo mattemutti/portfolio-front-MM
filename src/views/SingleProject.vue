@@ -56,18 +56,11 @@ export default {
 		</div>
 		<div class="text-center video_section">
 			<section>
-				<iframe width="1280" height="720" src="https://www.youtube.com/embed/TiY8cxqd18E?si=_kgWWDpf-HZ94gt6"
-					title="YouTube video player" frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-					referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				{{ project.description }}
 			</section>
 
-			<iframe width="560" height="315"
-				src="https://www.youtube.com/embed/TiY8cxqd18E?si=VR7xvtW_VLYWd2ct&amp;controls=0"
-				title="YouTube video player" frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-				referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-			{{ project.video }}
+
+
 		</div>
 		<!--  
 		<div class="text-center">
