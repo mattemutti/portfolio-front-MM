@@ -55,6 +55,10 @@ export default {
 			<h2 class="">{{ project.title }}</h2>
 		</div>
 		<div class="text-center">
+			{{ project.video }}
+		</div>
+		<!--  
+		<div class="text-center">
 			<img :src="'https://back.muttimatteo.com/api/projects/storage/' + project.cover_image" alt="" class="py-4">
 		</div>
 		<div class="text-end p-4">
@@ -65,16 +69,18 @@ export default {
 			<div class="">
 				{{ project.code }}
 			</div>
-			<div>
-				{{ project.repo }}
-			</div>
 		</div>
+			-->
+		<div class="text-center">
+			{{ project.repo }}
+		</div>
+
 		<div class="p-4" v-if="project.technologies">
 			<div class="text-center" v-for="tech in project.technologies">
 				{{ tech.name }}
 			</div>
 		</div>
-		<div class="text-end p-4" v-if="project.type">
+		<div class="text-center p-4" v-if="project.type">
 			{{ project.type.name }}
 		</div>
 	</div>
