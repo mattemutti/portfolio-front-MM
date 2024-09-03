@@ -56,8 +56,15 @@ export default {
 		</div>
 		<div class="text-center d-flex justify-content-center">
 			<section class="video_wrapper">
-				<vue-plyr>
+				<!-- <vue-plyr>
 					<div data-plyr-provider="youtube" data-plyr-embed-id="{{project.video}}"></div>
+				</vue-plyr> -->
+
+
+				<vue-plyr>
+					<div class="plyr__video-embed">
+						<iframe src="{{project.video}}" allowfullscreen allowtransparency allow="autoplay"></iframe>
+					</div>
 				</vue-plyr>
 			</section>
 		</div>
