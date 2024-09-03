@@ -63,7 +63,8 @@ export default {
 
 				<vue-plyr>
 					<div class="plyr__video-embed">
-						<iframe src="{{project.video}}" allowfullscreen allowtransparency allow="autoplay"></iframe>
+						<iframe :src="project.video" allowfullscreen allowtransparency allow="autoplay">{{
+				project.video }}</iframe>
 					</div>
 				</vue-plyr>
 			</section>
