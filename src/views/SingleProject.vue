@@ -55,6 +55,12 @@ export default {
 			<h2 class="">{{ project.title }}</h2>
 		</div>
 		<div class="text-center">
+			<section>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/TiY8cxqd18E?si=_kgWWDpf-HZ94gt6"
+					title="YouTube video player" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</section>
 			{{ project.video }}
 		</div>
 		<!--  
