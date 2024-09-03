@@ -56,7 +56,7 @@ export default {
 		</div>
 		<div class="text-center video_section">
 			<section>
-				{{ project.description }}
+				<iframe {{ project.description }}></iframe>
 			</section>
 
 
