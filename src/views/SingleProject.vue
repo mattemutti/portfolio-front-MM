@@ -54,13 +54,12 @@ export default {
 		<div class="text-center">
 			<h2 class="">{{ project.title }}</h2>
 		</div>
-		<div class="text-center video_section">
-			<section>
-				<iframe project.description></iframe>
+		<div class="text-center d-flex justify-content-center">
+			<section class="video_wrapper">
+				<vue-plyr>
+					<div data-plyr-provider="youtube" data-plyr-embed-id="{{project.video}}"></div>
+				</vue-plyr>
 			</section>
-
-
-
 		</div>
 		<!--  
 		<div class="text-center">
@@ -71,14 +70,14 @@ export default {
 		</div>
 
 		<div class="d-flex justify-content-between p-4">
-			<div class="">
+			<div class="">x
 				{{ project.code }}
 			</div>
 		</div>
-			-->
 		<div class="text-center">
 			{{ project.repo }}
 		</div>
+			-->
 
 		<div class="p-4" v-if="project.technologies">
 			<div class="text-center" v-for="tech in project.technologies">
@@ -92,5 +91,7 @@ export default {
 
 </template>
 <style>
-.video_section {}
+.video_wrapper {
+	width: 50%;
+}
 </style>
