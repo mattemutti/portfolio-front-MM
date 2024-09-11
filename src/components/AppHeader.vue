@@ -36,7 +36,7 @@ export default {
     <div class="d-flex justify-content-between pb-2">
 
       <div>
-        <router-link :to="{ name: 'social' }" class="text-decoration-none txt_color fs-5">MM</router-link>
+        <div class="text-decoration-none txt_color fs-5">MM</div>
       </div>
       <div class="right-menu d-flex ">
         <router-link :to="{ name: item.route }" v-for="item in menu" class="px-2 text-decoration-none txt_color"
